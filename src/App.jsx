@@ -12,14 +12,14 @@ function App() {
               Log in to Facebook
             </p>
           </div>
-          <div className="mb-1">
+          <div className="mb-1 lg:mb-3">
             <input
               type="email"
               placeholder="Email address or phone number"
               className="inline-block w-full rounded border border-slate-300 px-3 py-2 text-[8px] tracking-wide placeholder:text-slate-400 sm:rounded sm:px-4 sm:py-2 sm:text-[12px] md:px-4 md:py-3 md:text-base"
             />
           </div>
-          <div className="mb-1">
+          <div className="mb-1 lg:mb-3">
             <input
               type="password"
               placeholder="Password"
@@ -27,8 +27,8 @@ function App() {
             />
           </div>
 
-          <div className="mb-1">
-            <button className="bg-b w-full rounded bg-blue-500 px-3 py-1 text-[8px] font-bold tracking-wide text-white hover:bg-blue-600 sm:rounded sm:px-4 sm:py-2 sm:text-[14px] md:px-4 md:py-3 md:text-base">
+          <div className="mb-1 lg:mb-3">
+            <button className="bg-b w-full rounded bg-blue-500 px-3 py-1 text-[8px] font-bold tracking-wide text-white hover:bg-blue-600 sm:rounded sm:px-4 sm:py-2 sm:text-[14px] md:px-4 md:py-3 md:text-base lg:text-lg">
               Log in
             </button>
           </div>
@@ -39,7 +39,7 @@ function App() {
             </p>
           </div>
 
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex flex-row items-center justify-between lg:mb-3">
             <span className="h-[1px] w-full bg-stone-300"></span>
             <span className="mx-3 text-[7px] text-stone-400 sm:text-[7px] md:text-sm">
               or
@@ -47,8 +47,8 @@ function App() {
             <span className="h-[1px] w-full bg-stone-300"></span>
           </div>
 
-          <div className="my-1 flex items-center justify-center">
-            <button className="inline-block rounded bg-green-600 px-3 py-2 text-center text-[8px] font-semibold tracking-wide text-white hover:bg-green-700 sm:rounded sm:px-4 sm:py-2 sm:text-xs md:px-4 md:py-3 md:text-base md:font-semibold">
+          <div className="my-1 flex items-center justify-center lg:mb-3">
+            <button className="inline-block rounded bg-green-600 px-3 py-2 text-center text-[8px] font-semibold tracking-wide text-white hover:bg-green-700 sm:rounded sm:px-4 sm:py-2 sm:text-xs md:px-4 md:py-3 md:text-base md:font-semibold lg:font-bold">
               Create new account
             </button>
           </div>
